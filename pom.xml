@@ -8,8 +8,9 @@
         <artifactId>community</artifactId>
         <version>2.4</version>
     </parent>
-
-    <artifactId>java.client</artifactId>
+	
+	<groupId>kaazing-test</groupId>
+    <artifactId>java.client.test.release</artifactId>
     <name>Kaazing Java Clients</name>
     <version>develop-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -33,15 +34,6 @@
         <slf4j.log4j.version>1.7.5</slf4j.log4j.version>
         <enforcer.skip>true</enforcer.skip>
     </properties>
-
-    <modules>
-        <module>net.api</module>
-        <module>bridge</module>
-        <module>transport</module>
-        <module>ws</module>
-        <module>amqp-0-9-1</module>
-        <module>apidoc</module>
-    </modules>
 
     <dependencyManagement>
         <dependencies>
