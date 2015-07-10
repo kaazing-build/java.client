@@ -12,7 +12,7 @@
 	<groupId>kaazing-test</groupId>
     <artifactId>java.client.test.release</artifactId>
     <name>Kaazing Java Clients</name>
-    <version>develop-SNAPSHOT</version>
+    <version>5.2.2</version>
     <packaging>pom</packaging>
 
     <url>https://github.com/kaazing/java.client</url>
